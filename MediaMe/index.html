@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>MediaMe</title>
+</head>
+
+<!-- Nav Menu -->
+<nav>
+    <ul>
+        <li>All</li>
+        <li>Movies</li>
+        <li>TV shows</li>
+    </ul>
+</nav>
+
+<body>
+    <h1>All your media in the one place</h1>
+    <h3>Want an easy way to keep track of all the movies and TV shows you've watched in your lifetime? Start your personalised list
+        or add to an existing one below!
+    </h3>
+   
+    <!-- Collapsible for form -->
+    <details>
+        <summary>Add to list</summary>
+        <form action="" method="">
+            Title: <input type="text" name="title"> <br>
+            Type: <select name="type">
+                <option value="movie">Movie</option>
+                <option value="tvshow">TV Show</option>
+            </select> <br>
+            Thumbnail: <input type="file" name="thumbnail" accept="image/png, image/jpg"> <br>
+            Genre: <select name="genre">
+                <option value="drama">Drama</option>
+                <option value="horror">Horror</option>
+                <option value="comedy">Comedy</option>
+                <option value="thriller">Thriller</option>
+                <option value="romance">Romance</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="documentary">Documentary</option>
+            </select> <br>
+            Comments: <textarea rows = "2" cols = "50" name = "comments"> </textarea>
+        </form>
+    </details>
+
+    <h2>All</h2>
+    <p>Your list seems to be empty :(. Add one now!</p>
+
+</body>
+</html>
